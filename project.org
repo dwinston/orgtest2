@@ -1,29 +1,29 @@
 * TODO Recess 3.0 <2014-05-28 Wed>
-#+BEGIN: columnview :hlines 1 :id local
-| Task                                                                    | Estimated Effort | CLOCKSUM |
-|-------------------------------------------------------------------------+------------------+----------|
-| * TODO Recess 3.0 <2014-05-28 Wed>                                      |             3:20 |     0:49 |
-| ** TODO [#A] three-day availability                                     |             0:30 |          |
-| ** TODO [#A] in-app onboarding                                          |             1:00 |          |
-| ** TODO [#C] burndown chart                                             |             1:00 |     0:49 |
-| ** TODO [#A] facility map link                                          |             0:10 |          |
-| ** TODO [#A] fix bug of non-admins seeing facility dashboard            |             0:10 |          |
-| ** TODO [#B] way to list info for all participants for event/suggestion |             0:30 |          |
+#+Begin: columnview :hlines 1 :id local
+| Task                                                               | Effort | CLOCKSUM |
+|--------------------------------------------------------------------+--------+----------|
+| * TODO Recess 3.0 <2014-05-28 Wed>                                 |   3:20 |     0:49 |
+| ** TODO three-day availability                                     |   0:30 |          |
+| ** TODO in-app onboarding                                          |   1:00 |          |
+| ** TODO burndown chart                                             |   1:00 |     0:49 |
+| ** TODO facility map link                                          |   0:10 |          |
+| ** TODO fix bug of non-admins seeing facility dashboard            |   0:10 |          |
+| ** TODO way to list info for all participants for event/suggestion |   0:30 |          |
 #+END:
 
-** TODO [#A] three-day availability
+** TODO three-day availability
      :PROPERTIES:
      :Effort:   0:30
      :END:
    availabilities for next three days rather than two
    - benefit :: Can pitch companies in Burlington Mon and Tue for [2014-06-05 Thu] event
-** TODO [#A] in-app onboarding
+** TODO in-app onboarding
      :PROPERTIES:
      :Effort:   1:00
      :END:
    in-app onboarding sequence to intro new users to product flow
    - benefit :: Mitigate new-user confusion
-** TODO [#C] burndown chart
+** TODO burndown chart
    :LOGBOOK:
    CLOCK: [2014-05-28 Wed 11:10]--[2014-05-28 Wed 11:33] =>  0:23
    CLOCK: [2014-05-28 Wed 10:46]--[2014-05-28 Wed 11:10] =>  0:24
@@ -34,19 +34,37 @@
    :END:
    Draft product burndown chart for short-term feature roadmap
    - benefit :: Can prioritize / flex scope with fixed time budget
-** TODO [#A] facility map link
+** TODO facility map link
    :PROPERTIES:
    :Effort:   0:10
    :END:
    Facility address links to google map
    - benefit :: users know quickly where facility is and can get directions
-** TODO [#A] fix bug of non-admins seeing facility dashboard
+** TODO fix bug of non-admins seeing facility dashboard
    :PROPERTIES:
    :Effort:   0:10
    :END:
-** TODO [#B] way to list info for all participants for event/suggestion
+** TODO way to list info for all participants for event/suggestion
    :PROPERTIES:
    :Effort:   0:30
    :END:
    Email, status as participant
    - benefit :: can remind people
+
+* benefits selling to LORD
+** can pay in app rather than in cash
+** can see how many people are needed / spots left / if the event is really on
+** can still have one clear option per day
+Alex worried that voting on event will split people
+
+* benefits selling to Green Mountain Coffee
+** can have enough suggestions at The Edge for many people
+
+* Dealer vs Burton
+Alex wants to gamify via special suggestion visible only to verified @burton.com
+or @dealer.com users and annotated graphically as such.
+
+* for each event, within facility dashboard
+** number of people who went
+** how much paid
+** how much facility should be paid
